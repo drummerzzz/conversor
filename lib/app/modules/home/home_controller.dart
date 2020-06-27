@@ -46,7 +46,6 @@ abstract class _HomeControllerBase with Store {
   @computed
   List<CurrencyModel> get currencies => model.value.currencies;
 
-
   @action
   void changeSelected (CurrencyModel currency) {
     this.selected = currency;

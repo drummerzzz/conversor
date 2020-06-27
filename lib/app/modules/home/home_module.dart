@@ -2,6 +2,7 @@ import 'package:conversor/app/core/interfaces/http_client_interface.dart';
 import 'package:conversor/app/core/repositories/currency_repository.dart';
 import 'package:conversor/app/core/services/dio_http_service.dart';
 import 'package:conversor/app/core/viewmodels/currencies_viewmodel.dart';
+import 'package:conversor/app/modules/home/pages/info_page.dart';
 
 import 'home_controller.dart';
 import 'package:flutter_modular/flutter_modular.dart';
@@ -19,6 +20,7 @@ class HomeModule extends ChildModule {
   @override
   List<Router> get routers => [
         Router(Modular.initialRoute, child: (_, args) => HomePage()),
+        Router('info', child: (_, args) => InfoPage()),
       ];
 
   static Inject get to => Inject<HomeModule>.of();

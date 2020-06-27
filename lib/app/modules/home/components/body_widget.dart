@@ -55,8 +55,7 @@ class BodyWidget extends StatelessWidget {
                 controller: controller.text2,
                 onChanged: (value) {
                   var newValue = double.parse(value);
-                  if (newValue < 0.1) newValue = 1;
-                  controller.changeCurrent2(newValue);
+                  if (newValue > 0) controller.changeCurrent2(newValue);
                 },
                 keyboardType: TextInputType.number,
                 decoration: InputDecoration(
