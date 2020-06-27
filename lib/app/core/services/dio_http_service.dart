@@ -1,5 +1,5 @@
-import 'package:conversor_de_moedas/app/core/contants.dart';
-import 'package:conversor_de_moedas/app/core/interfaces/http_client_interface.dart';
+import 'package:conversor/app/core/contants.dart';
+import 'package:conversor/app/core/interfaces/http_client_interface.dart';
 import 'package:dio/dio.dart';
 
 class HttpClienteDio implements IHttpClient {

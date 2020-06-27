@@ -1,7 +1,7 @@
-import 'package:conversor_de_moedas/app/core/interfaces/http_client_interface.dart';
-import 'package:conversor_de_moedas/app/core/repositories/currency_repository.dart';
-import 'package:conversor_de_moedas/app/core/services/dio_http_service.dart';
-import 'package:conversor_de_moedas/app/core/viewmodels/currencies_viewmodel.dart';
+import 'package:conversor/app/core/interfaces/http_client_interface.dart';
+import 'package:conversor/app/core/repositories/currency_repository.dart';
+import 'package:conversor/app/core/services/dio_http_service.dart';
+import 'package:conversor/app/core/viewmodels/currencies_viewmodel.dart';
 
 import 'home_controller.dart';
 import 'package:flutter_modular/flutter_modular.dart';

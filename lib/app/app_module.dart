@@ -1,8 +1,8 @@
 import 'app_controller.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter/material.dart';
-import 'package:conversor_de_moedas/app/app_widget.dart';
-import 'package:conversor_de_moedas/app/modules/home/home_module.dart';
+import 'package:conversor/app/app_widget.dart';
+import 'package:conversor/app/modules/home/home_module.dart';
 
 class AppModule extends MainModule {
   @override

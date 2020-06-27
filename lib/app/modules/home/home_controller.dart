@@ -1,6 +1,6 @@
-import 'package:conversor_de_moedas/app/core/models/currencies_model.dart';
-import 'package:conversor_de_moedas/app/core/models/currency_model.dart';
-import 'package:conversor_de_moedas/app/core/repositories/currency_repository.dart';
+import 'package:conversor/app/core/models/currencies_model.dart';
+import 'package:conversor/app/core/models/currency_model.dart';
+import 'package:conversor/app/core/repositories/currency_repository.dart';
 import 'package:mobx/mobx.dart';
 import 'package:flutter/material.dart';
 

@@ -1,4 +1,4 @@
-package com.devdrummer.conversor_de_moedas
+package com.devdrummer.conversor
 
 import io.flutter.embedding.android.FlutterActivity
 

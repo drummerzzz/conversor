@@ -1,5 +1,5 @@
-name: conversor_de_moedas
-description: A new Flutter project. Created by Slidy
+name: Conversor
+description: Um simples Conversor se moedas
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -34,6 +34,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
 
 dev_dependencies:
+  flutter_launcher_icons: ^0.7.3
   mockito: ^4.1.1
   mobx_codegen: ^1.1.0+1
   build_runner: ^1.10.0
