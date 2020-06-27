@@ -4,7 +4,6 @@ import 'package:flutter_modular/flutter_modular.dart';
 
 import '../home_controller.dart';
 import 'dropdown_widget.dart';
-import 'field_widget.dart';
 
 class BodyWidget extends StatelessWidget {
 
