@@ -1,5 +1,5 @@
-import 'package:conversor/app/core/contants.dart';
 import 'package:conversor/app/core/interfaces/http_client_interface.dart';
+import 'package:conversor/app/core/shared/contants.dart';
 import 'package:dio/dio.dart';
 
 class HttpClienteDio implements IHttpClient {

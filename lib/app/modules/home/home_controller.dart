@@ -69,7 +69,7 @@ abstract class _HomeControllerBase with Store {
     this.text1.text = current1.toStringAsFixed(2);
   }
   @action
-  Future getCurrencies () async {
+  Future getCurrencies () {
     model = repository.getCurrencies().asObservable();
   }
 

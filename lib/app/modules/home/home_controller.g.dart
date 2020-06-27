@@ -121,14 +121,6 @@ mixin _$HomeController on _HomeControllerBase, Store {
     });
   }
 
-  final _$getCurrenciesAsyncAction =
-      AsyncAction('_HomeControllerBase.getCurrencies');
-
-  @override
-  Future<dynamic> getCurrencies() {
-    return _$getCurrenciesAsyncAction.run(() => super.getCurrencies());
-  }
-
   final _$_HomeControllerBaseActionController =
       ActionController(name: '_HomeControllerBase');
 
@@ -160,6 +152,17 @@ mixin _$HomeController on _HomeControllerBase, Store {
         name: '_HomeControllerBase.changeCurrent2');
     try {
       return super.changeCurrent2(value);
+    } finally {
+      _$_HomeControllerBaseActionController.endAction(_$actionInfo);
+    }
+  }
+
+  @override
+  Future<dynamic> getCurrencies() {
+    final _$actionInfo = _$_HomeControllerBaseActionController.startAction(
+        name: '_HomeControllerBase.getCurrencies');
+    try {
+      return super.getCurrencies();
     } finally {
       _$_HomeControllerBaseActionController.endAction(_$actionInfo);
     }

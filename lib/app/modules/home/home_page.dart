@@ -3,6 +3,7 @@ import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 import 'components/body_widget.dart';
 import 'home_controller.dart';
+import 'package:conversor/app/core/shared/contants.dart';
 
 class HomePage extends StatefulWidget {
   final String title;
@@ -22,6 +23,11 @@ class _HomePageState extends ModularState<HomePage, HomeController> {
           title: Text(widget.title),
           centerTitle: true,
         ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: controller.getCurrencies,
+          child: Icon(Icons.refresh),
+        ),
+        key: scaffoldKey,
         body: Observer(
           builder: (_) {
             if (controller.model.value == null) {
