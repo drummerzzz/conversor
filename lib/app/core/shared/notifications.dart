@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:conversor/app/core/shared/contants.dart';
+import 'package:conversion_money/app/core/shared/contants.dart';
 
 void showSnacBar(String value) {
   scaffoldKey.currentState.showSnackBar(new SnackBar(
@@ -11,10 +11,7 @@ void showSnacBar(String value) {
         alignment: Alignment.bottomCenter,
         child: Text(
           value,
-          style: TextStyle(
-            color: Colors.white,
-            fontWeight: FontWeight.bold
-          ),
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
         ),
       )));
 }
